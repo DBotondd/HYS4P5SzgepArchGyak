@@ -1,0 +1,14 @@
+a. passwd
+b.man system
+c.pwd
+d.finger, who
+e.last
+f.who
+g.last
+h.users
+i.who, whoami
+j.talk
+k. man date
+l. date +"%Y %m %d"
+m. kill
+n.clear
