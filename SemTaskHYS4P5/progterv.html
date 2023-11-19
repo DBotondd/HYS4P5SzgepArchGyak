@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <title>Programtervezési ismeretek</title>
+    <meta charset="UTF-8">
+    <style>
+        
+        body {
+            background-color: white;
+            color: #333;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header, footer {
+            background-color: #d19b08;
+            text-align: center;
+            color: white;
+            padding: 20px 0;
+        }
+
+        header img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        h1 {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        h2 {
+            margin: 20px 0;
+            text-align: left;
+        }
+
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .kurzus-leiras {
+            font-weight: bold;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: left;
+        }
+
+        
+        .video-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%; 
+            height: 0;
+            overflow: hidden;
+        }
+        .video-description {
+            text-align: left;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+        
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 420px;
+            height: 236px;
+        }
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #333;
+        }
+        footer {
+      
+      flex-shrink: 0;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <img src="images/melogo.png" alt="Fejléc képe">
+    </header>
+
+    <main>
+        <nav>
+            <a href="main.html" target="_self">Vissza a kezdőlapra</a>
+            <a href="progalap.html">Programozás alapjai</a>
+            <a href="szgeparch.html">Számítógép architektúrák</a>
+          </nav>
+        <h1>Programtervezési ismeretek</h1>
+        <p class="kurzus-leiras">Az oldal a programtervezési ismeretek kurzus leírását tartalmazza</p>
+        <h2>Tematika:</h2>
+        <ul>
+            <li>A programozási alapok elméleti kiterjesztése.</li>
+            <li>Olyan elméleti alapok elsajátítása, amely minden további programozási nyelvnek része.</li>
+            <li>Modellek és alapvető algoritmusok fejlesztése, használata, elemi algoritmusok megértése, ezek ábrázolása többféle módon (pszeudokód, folyamatábra, struktrogram).</li>
+            <li>A tantárgy előadója és gyakorlatvezetője: Piller Imre</li>
+            
+        </ul>
+
+        <div class="video-description">
+            <p>Pszeudokódos ábrázolás bemutatása:</p>
+        </div>
+    
+        
+        <div class="video-container">
+            <iframe width="420" height="236" src="https://youtube.com/embed/C9P_FcXEnN4" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </main>
+    <footer>
+        <p>Készítette: Dobozi Botond | Neptun kód: HYS4P5</p>
+      </footer>
+
+</body>
+
+</html>

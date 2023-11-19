@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <title>Számítógép architektúrák</title>
+    <meta charset="UTF-8">
+    <style>
+        
+        body {
+            background-color: #fff;
+            color: #333;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header, footer {
+            background-color: #0848d1;
+            text-align: center;
+            color: white;
+            padding: 20px 0;
+        }
+
+        header img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        h1 {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        h2 {
+            margin: 20px 0;
+            text-align: left;
+        }
+
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .kurzus-leiras {
+            font-weight: bold;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: left;
+        }
+
+        
+        .video-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%; 
+            height: 0;
+            overflow: hidden;
+        }
+        .video-description {
+            text-align: left;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+        
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 420px;
+            height: 236px;
+        }
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #333;
+            
+        }
+        footer {
+      
+      flex-shrink: 0;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <img src="images/melogo.png" alt="Fejléc képe">
+    </header>
+
+    <main>
+        <nav>
+            <a href="main.html" target="_self">Vissza a kezdőlapra</a>
+            <a href="progalap.html">Programozás alapjai</a>
+            <a href="progterv.html">Programtervezési ismeretek</a>
+          </nav>
+        <h1>Számítógép architektúrák</h1>
+        <p class="kurzus-leiras">Az oldal a számítógép architektúrák kurzus leírását tartalmazza</p>
+        <h2>Tematika:</h2>
+        <ul>
+            <li>A gyakorlatokon a hallgatók elsajátítják az alapvető OS parancsokat és megismerkednek a burokprogramozással.</li>
+            <li>A számítógép belső működési modelljének, az általános mikroprocesszoros architektúrának megismertetése.</li>
+            <li>Bemutatásra kerülnek a számítógép főbb komponensei, az operatív tár, a sínek, a be-/kimeneti eszközök,
+                 a háttértárak, a megjelenítők, a billentyűzetek, a mutató eszközök és nyomtatók, mindezek felépítése és működési elve.</li>
+            <li>A tantárgy előadója: Dr. Kovács Szilveszter</li>
+            <li>Gyakorlatvezető: Dr. Bednarik László</li>
+        </ul>
+
+        <div class="video-description">
+            <p>Egy példa, hogy mit is tanulhatunk a kurzus keretein belül:</p>
+        </div>
+    
+        
+        <div class="video-container">
+            <iframe width="420" height="236" src="https://youtube.com/embed/g8FKNFa7P7w" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </main>
+    <footer>
+        <p>Készítette: Dobozi Botond | Neptun kód: HYS4P5</p>
+      </footer>
+
+</body>
+
+</html>

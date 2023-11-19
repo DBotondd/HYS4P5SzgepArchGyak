@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <title>Tantárgyaim bemutatása</title>
+  <style>
+    
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      background-image: url('images/701802.jpg'); 
+      background-size: cover;
+      background-attachment: fixed;
+      
+    }
+    header, footer {
+      background-color: rgb(0, 140, 255);
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #333;
+    }
+    h2 {
+      text-align: center;
+    }
+    #content {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+    }
+    footer {
+      /* Lábléc fix pozicionálása az oldal aljára */
+      flex-shrink: 0;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Tantárgyaim bemutatása</h1>
+    <img src="images/melogo.png" alt="Fejléc képe" width="200">
+  </header>
+  
+  <nav>
+    <a href="szgeparch.html">Számítógép architektúrák</a>
+    <a href="progalap.html">Programozás alapjai</a>
+    <a href="progterv.html">Programtervezési ismeretek</a>
+  </nav>
+
+  <div id="content">
+    <section id="kezdolap">
+      <h2>Kezdőlap</h2>
+      <p>Válassz egy tantárgyat a menüből!</p>
+    </section>
+
+    
+  </div>
+
+  <footer>
+    <p>Készítette: Dobozi Botond | Neptun kód: HYS4P5</p>
+  </footer>
+</body>
+</html>
