@@ -1,0 +1,58 @@
+1. pwd
+2. cd /
+3. cd /home/
+4. cd /home/user
+5. cd /etc/
+6. cd 
+7. ls
+8. ls /etc/, ls /var/log/
+9. cd /home/ , mkdir Teszt
+10. mkdir T1 T2
+11. tree
+12. mkdir Unix Unix/Linux Unix/Linux/Debian
+13. mv Unix/Linux/Debian Unix/Linux/Deb
+14. mv Unix/Linux/Deb /home/Teszt/T1
+15. rm -rf /T1
+16. rm -rf /home/Teszt
+17. ls
+18. cd /etc/ , ls -la
+19. ls *.conf
+20. ls *p
+21. ls *f
+22. ls p?s*d
+23. ls -la /home
+24. cd /etc/ , ls | grep -E '^.[an]'
+25. grep -E '^.[^an]'
+26. ls -laR /
+27. mc
+
+2. feladat
+1. mkdir SzgepGyak SzgepGyak/Proba SzgepGyak/Proba/Test SzgepGyak/Proba/Test/Unix SzgepGyak/Proba/Linux SzgepGyak/Check SzgepGyak/Check/Tmp
+2. cd /etc/ , tree
+3. mv /etc/passwd /home/SzgepGyak/Proba
+4. mv /etc/shadow /home/SzgepGyak/Proba/Test
+5. cp /etc/*.conf /home/SzgepGyak/Proba/Linux
+6. cp /etc/?as*d /home/SzgepGyak/Check
+7. mv /home/SzgepGyak/Proba/Test/* /home/SzgepGyak/Proba/Linux
+8. cd SzgepGyak/Check , touch Adatok.txt
+9. rm -rf /home/SzgepGyak/Proba/Linux
+10. rmdir SzgepGyak/Proba
+11. ls /etc/passwd
+12. less /etc/passwd
+
+3.feladat
+1. mkdir hys4p5 hys4p5/bokor hys4p5/bokor/banan hys4p5/bokor/mogyoro hys4p5/bokor/barack hys4p5/fa hys4p5/fa/korte hys4p5/land hys4p5/land/szeder hys4p5/land/kokusz
+2. cp home/hys4p5/land/szeder home/hys4p5/fa
+3. cp home/hys4p5/bokor/banan home/hys4p5/fa
+4. mv home/hys4p5/bokor/barack home/hys4p5/fa
+5. mv home/hys4p5/land/kokusz home/hys4p5/fa
+6. rm -rf home/hys4p5/land
+7. cd hys4p5/bokor/banan, touch leiras.txt
+8. cd hys4p5/tree, touch felsorolas.txt
+9. nano leiras.txt
+10. nano felsorolas.txt
+11. cd hys4p5, ls - la
+12. cd / , find . -name '?e*'
+13. chmod a+r felsorolas.txt
+14. du -sh home/hys4p5
+15. sort felsorolas.txt
